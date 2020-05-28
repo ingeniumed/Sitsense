@@ -1,0 +1,33 @@
+{
+  "name": "sitsense",
+  "version": "1.0.0",
+  "description": "A webservice for communicating with a pareto backend, to make sense of occupancy data",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/eslint --fix --ignore-path .gitignore . && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gopakl@gitlab.com/gandalfCoder/sitsense.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://gitlab.com/gopakl/sitsense#readme",
+  "dependencies": {
+    "canvas": "^2.4.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.23",
+    "mongoose": "^5.5.2",
+    "request": "^2.88.0",
+    "socket.io-client": "^2.2.0",
+    "uuid": "^3.3.2",
+    "vega": "^5.3.5",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
